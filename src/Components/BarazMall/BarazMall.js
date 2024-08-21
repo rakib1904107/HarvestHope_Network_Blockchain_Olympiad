@@ -1,11 +1,11 @@
 import React from 'react';
 import './BarazMall.css';
-import d1 from '../../images/d1.jpg';
-import d2 from '../../images/d2.jpg';
-import d3 from '../../images/d3.jpg';
-import d4 from '../../images/d4.jpg';
-import d5 from '../../images/d5.jpg';
-import d6 from '../../images/d6.jpg';
+import d1 from '../Farmer/images/Fa5.jpg';
+import d2 from '../Farmer/images/Fa6.jpg';
+import d3 from '../Farmer/images/Fa7.jpg';
+import d4 from '../Farmer/images/Fa8.jpg';
+import d5 from '../Farmer/images/Fa9.jpg';
+import d6 from '../Farmer/images/Fa10.jpg';
 
 const BarazMall = () => {
     return (

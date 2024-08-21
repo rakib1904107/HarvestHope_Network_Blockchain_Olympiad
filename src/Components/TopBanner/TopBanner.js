@@ -1,9 +1,9 @@
 import React from 'react';
 import './TopBanner.css';
-import feature1 from '../../images/feature1.png';
-import feature2 from '../../images/feature2.png';
-import feature3 from '../../images/feature3.png';
-import feature4 from '../../images/feature4.png';
+import feature1 from '../Farmer/images/Fa2.jpeg';
+import feature2 from '../Farmer/images/Fa3.jpg';
+import feature3 from '../Farmer/images/Fa4.jpg';
+import feature4 from '../Farmer/images/Fa5.jpg';
 
 const TopBanner = () => {
     return (

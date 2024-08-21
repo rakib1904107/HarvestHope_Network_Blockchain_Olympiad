@@ -1,10 +1,10 @@
 import React from 'react';
 import './Carousel.css';
-import slider1 from '../../images/slider1.jpg';
-import slider2 from '../../images/slider2.jpg';
-import slider3 from '../../images/slider3.jpg';
-import slider4 from '../../images/slider4.jpg';
-import slider5 from '../../images/slider5.jpg';
+import slider1 from '../Farmer/images/Fa10.jpg';
+import slider2 from '../Farmer/images/Fa11.jpg';
+import slider3 from '../Farmer/images/Fa12.jpg';
+import slider4 from '../Farmer/images/Fa13.jpg';
+import slider5 from '../Farmer/images/Fa14.jpg';
 
 
 const Carousel = () => {

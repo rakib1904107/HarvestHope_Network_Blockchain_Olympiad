@@ -1,11 +1,11 @@
 import React from 'react';
 import './FlashSale.css'
-import f1 from '../../images/f1.jpg';
-import f2 from '../../images/f2.jpg';
-import f3 from '../../images/f3.jpg';
-import f4 from '../../images/f4.jpg';
-import f5 from '../../images/f5.jpg';
-import f6 from '../../images/f6.jpg';
+import f1 from '../Farmer/images/Fa17.jpg';
+import f2 from '../Farmer/images/Fa16.jpg';
+import f3 from '../Farmer/images/Fa14.jpg';
+import f4 from '../Farmer/images/Fa13.jpg';
+import f5 from '../Farmer/images/Fa12.jpg';
+import f6 from '../Farmer/images/Fa11.jpg';
 
 const FlashSale = () => {
     return (

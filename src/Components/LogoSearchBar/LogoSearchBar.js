@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaSearch, FaCaretDown } from 'react-icons/fa';
-import logo1 from '../../images/logo1.jpg'; // Ensure this path is correct
+import logo1 from '../Farmer/images/logo1.jpg'; // Ensure this path is correct
 import { Link } from 'react-router-dom';
 import './LogoSearchBar.css';
 const LogoSearchBar = () => {
@@ -18,7 +18,7 @@ const LogoSearchBar = () => {
                     <li><Link className="dropdown-item" to="/add-product-auction">Add Product For Auction</Link></li>
                     <li><Link className="dropdown-item" to="/add-product-sale">Add Product For Sale</Link></li>
                     <li><Link className="dropdown-item" to="/add-product-inspect">Add Product For Inspection</Link></li>
-                    <li><Link className="dropdown-item" to="/account-details">Account Details</Link></li>
+                    <li><Link className="dropdown-item" to="/accountdetails">Account Details</Link></li>
                     <li><Link className="dropdown-item" to="/history">History</Link></li>
                 </ul>
             </div>

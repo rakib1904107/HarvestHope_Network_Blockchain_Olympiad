@@ -39,7 +39,7 @@ export default function FarmerOption() {
                     </div>
                     <div className='col-lg-2 col-md-4 col-sm-6 p-2 card-body'>
                         <img src={account} className='img-fluid' alt="flash-sale-product" />
-                        <Link to="/inspect">
+                        <Link to="/accountdetails">
                             <button className='btn btn-primary w-100 mt-2'>Account Details</button>
                         </Link>
                     </div>

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';  // Add this im
 import Home from './Pages/Home';
 import SAVE_MORE_ON_APP from './Pages/SAVE_MORE_ON_APP';
 import Farmers from './Pages/Farmer/Farmers';
+import AccountDetails from './Pages/Farmer/AccountDetails';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/farmer" element={<Farmers />} />
             <Route path="/" element={<Home />} />
-            <Route path="/SAVE_MORE_ON_APP" element={<SAVE_MORE_ON_APP />} />
+            <Route path="/accountdetails" element={<AccountDetails />} />
         </Routes>
     </BrowserRouter>
   );
