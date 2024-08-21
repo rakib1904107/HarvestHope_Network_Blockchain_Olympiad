@@ -1,0 +1,28 @@
+/* Background styling for the entire section */
+.bg-brand {
+    background-color: whitesmoke; /* Light gray background */
+}
+
+/* Container styling */
+.flashsale-container {
+    justify-content: space-between;
+}
+
+/* Card styling */
+.card-body {
+    text-align: center;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: whitesmoke; /* Default Bootstrap primary color */
+    border-color:#07bc0c; /* White text color */
+    ; /* Default Bootstrap primary border color */
+    color: #07bc0c; /* White text color */
+}
+
+.btn-primary:hover {
+    background-color: #07bc0c;; /* Darker blue on hover */
+    color: white;
+    border-color: #07bc0c; /* Darker border on hover */
+}

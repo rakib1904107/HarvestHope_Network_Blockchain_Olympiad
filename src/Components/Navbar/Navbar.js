@@ -21,42 +21,13 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav ms-auto text-center">
             <li className="nav-item">
-              <Link className="nav-link" to="/SAVE_MORE_ON_APP">
-                SAVE MORE ON APP
+              <Link className="nav-link" to="/">
+                Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/sell-on-daraz">
-                SELL ON DARAZ
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/customer-care">
-                CUSTOMER CARE
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/track-my-order">
-                TRACK MY ORDER
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/signup-login">
-                SIGNUP / LOGIN
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/baraj-affiliate-program">
-                BARAJ AFFILIATE PROGRAM
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/language">
-                ভাষা
-              </Link>
-            </li>
+            
           </ul>
         </div>
       </div>
