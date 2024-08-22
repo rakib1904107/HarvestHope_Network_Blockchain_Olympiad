@@ -1,8 +1,9 @@
 import React from 'react';
-import { FaSearch, FaCaretDown } from 'react-icons/fa';
+import { FaSearch, FaUser } from 'react-icons/fa'; // Import the profile icon
 import logo1 from '../Farmer/images/logo1.jpg'; // Ensure this path is correct
 import { Link } from 'react-router-dom';
 import './LogoSearchBar.css';
+
 const LogoSearchBar = () => {
     return (
         <div className='container-fluid search-container pt-2 d-flex justify-content-center align-items-center'>
@@ -11,13 +12,13 @@ const LogoSearchBar = () => {
             <button className='btn btn-success search-button'><FaSearch /></button>
             <div className="dropdown">
                 <button className='account-button' type="button" data-bs-toggle="dropdown" aria-expanded="false" >
-                    icon  
+                    <FaUser /> {/* Profile icon */}
                 </button>
                 <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to="/farmer">Dashboard</Link></li>
+                    <li><Link className="dropdown-item" to="/farmer">Dashboard</Link></li>
                     <li><Link className="dropdown-item" to="/add-product-auction">Add Product For Auction</Link></li>
                     <li><Link className="dropdown-item" to="/add-product-sale">Add Product For Sale</Link></li>
-                    <li><Link className="dropdown-item" to="/addproductforinspection">Add Product For Inspection</Link></li>
+                    <li><Link className="dropdown-item" to="/add-product-inspect">Add Product For Inspection</Link></li>
                     <li><Link className="dropdown-item" to="/accountdetails">Account Details</Link></li>
                     <li><Link className="dropdown-item" to="/history">History</Link></li>
                 </ul>

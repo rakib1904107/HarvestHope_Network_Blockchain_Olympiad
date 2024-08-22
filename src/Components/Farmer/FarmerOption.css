@@ -13,16 +13,22 @@
     text-align: center;
 }
 
+/* Image styling */
+.card-body img {
+    max-width: 80px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
 /* Button styling */
 .btn-primary {
     background-color: whitesmoke; /* Default Bootstrap primary color */
-    border-color:#07bc0c; /* White text color */
-    ; /* Default Bootstrap primary border color */
-    color: #07bc0c; /* White text color */
+    border-color: #07bc0c; /* Green border color */
+    color: #07bc0c; /* Green text color */
+    font-size: 0.9rem; /* Slightly larger font size */
 }
 
 .btn-primary:hover {
-    background-color: #07bc0c;; /* Darker blue on hover */
-    color: white;
-    border-color: #07bc0c; /* Darker border on hover */
+    background-color: #07bc0c; /* Green background on hover */
+    color: white; /* White text color on hover */
+    border-color: #07bc0c; /* Green border on hover */
 }
