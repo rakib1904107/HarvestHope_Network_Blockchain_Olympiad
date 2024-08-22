@@ -11,7 +11,7 @@ const LogoSearchBar = () => {
             <button className='btn btn-success search-button'><FaSearch /></button>
             <div className="dropdown">
                 <button className='account-button' type="button" data-bs-toggle="dropdown" aria-expanded="false" >
-                    My Account 
+                    icon  
                 </button>
                 <ul className="dropdown-menu">
                 <li><Link className="dropdown-item" to="/farmer">Dashboard</Link></li>
