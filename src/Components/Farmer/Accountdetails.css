@@ -1,13 +1,23 @@
+/* Remove this global body background styling */
 body {
-    background-image: url('D:\blockchain_olympiad\baraj-react-app\src\Components\Farmer\images\Fa5.jpg'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 0;
     padding: 0;
     border-color: #07bc0c;
     text-decoration-color: #07bc0c;
 }
+
+/* Apply the background image to a specific container */
+.account-page {
+    background-image: url('D:/blockchain_olympiad/baraj-react-app/src/Components/Farmer/images/Fa5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .account-details-container {
     display: flex;
