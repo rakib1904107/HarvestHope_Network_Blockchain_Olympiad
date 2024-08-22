@@ -1,31 +1,43 @@
+/* Remove this global body background styling */
 body {
-    background-image: url('D:\blockchain_olympiad\baraj-react-app\src\Components\Farmer\images\Fa5.jpg'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 0;
     padding: 0;
     border-color: #07bc0c;
     text-decoration-color: #07bc0c;
 }
 
+/* Apply the background image to a specific container */
+.account-page {
+    background-image: url('D:\Blockchain\Blockchain_Olympiad\src\Components\Farmer\images/Fa5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .account-details-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Ensures full height coverage */
+    min-height: 100vh;
+    /* Ensures full height coverage */
     padding: 20px;
     border-radius: 10px;
     border-color: #07bc0c;
 }
 
 .account-form {
-    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent form background */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Slightly transparent form background */
     padding: 20px;
     border-radius: 10px;
     border-color: #07bc0c;
     width: 100%;
-    max-width: 600px; /* Adjust width as needed */
+    max-width: 600px;
+    /* Adjust width as needed */
 }
 
 .form-group {
@@ -39,13 +51,16 @@ body {
     padding: 10px;
     width: 100%;
     border-color: #07bc0c;
-    transition: all 0.3s ease; /* Smooth transition for focus effects */
+    transition: all 0.3s ease;
+    /* Smooth transition for focus effects */
 }
 
 .form-control:focus {
     border-color: #07bc0c;
-    outline: none; /* Remove default outline */
-    background-color: rgba(7, 188, 12, 0.1); /* Slightly change background color on focus */
+    outline: none;
+    /* Remove default outline */
+    background-color: rgba(7, 188, 12, 0.1);
+    /* Slightly change background color on focus */
 }
 
 .btn-primary {
@@ -60,5 +75,6 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #059c0a; /* Slightly darker shade on hover */
+    background-color: #059c0a;
+    /* Slightly darker shade on hover */
 }
