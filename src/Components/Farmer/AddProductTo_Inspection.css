@@ -4,12 +4,30 @@ body {
     border-color: #07bc0c;
     text-decoration-color: #07bc0c;
 }
-.form-page {
+.add-inspect {
     background-image: url('D:\Blockchain\Blockchain_Olympiad\src\Components\Farmer\images/Fa5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add-inspect-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Ensures full height coverage */
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #07bc0c;
+}
+.form-page {
+    
     display: flex;
     justify-content: center;
     align-items: center;
