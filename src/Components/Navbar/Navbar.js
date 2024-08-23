@@ -27,11 +27,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/farmer">
-                My Account
-              </Link>
-            </li>
+            
           </ul>
         </div>
       </div>
