@@ -1,6 +1,9 @@
 /* Container Styling */
 .add-inspect {
     background-image: url('D:\Blockchain\Blockchain_Olympiad\src\Components\Farmer\images\Fa5.jpg') !important; /* Keep background image */
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -63,7 +66,7 @@
     width: 100%;
     padding: 10px;
     font-size: 18px;
-    background-color: #4CAF50;
+    background-color: #07bc0c;
     color: white;
     border: none;
     border-radius: 5px;

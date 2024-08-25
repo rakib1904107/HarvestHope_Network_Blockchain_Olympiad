@@ -3,8 +3,8 @@ import './AuctionCreation.css';
 import {Link} from 'react-router-dom';
 const AuctionCreation = () => {
     return (
-        <div className="add-inspect">
-            <div className="add-inspect-container"></div>
+        <div className="auction-inspect">
+            <div className="auction-inspect-container"></div>
             <div className="form-page">
                 <form>
                     <div className="form-group">

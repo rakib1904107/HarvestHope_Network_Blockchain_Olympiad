@@ -46,15 +46,16 @@
 
 /* Button styling */
 .btn-primary {
-    background-color: #07bc0c; /* Green background for buttons */
-    border-color: #07bc0c; /* Green border */
-    color: rgba(255, 255, 255, 0); /* White text */
+    background-color: #07bc0c;  /* Green background for buttons */
+    border-color: #07bc0c ; /* Green border */
+    color: white ; /* White text */
     font-size: 0.9rem; /* Slightly larger font size */
     padding: 10px; /* Increased padding */
     border-radius: 4px; /* Rounded corners for buttons */
 }
-
 .btn-primary:hover {
-    background-color: #05a500; /* Darker green on hover */
-    border-color: #05a500; /* Darker green border on hover */
+    background-color: white ;
+    border-color: #07bc0c ;
+    color: #07bc0c ;
+    /* Darker green border on hover */
 }

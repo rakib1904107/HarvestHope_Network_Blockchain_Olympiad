@@ -26,12 +26,12 @@
     margin-bottom: 20px; /* Space below the buttons */
 }
 
-.add-product-button {
+.sales-button {
     padding: 10px 20px;
     font-size: 16px;
     margin-bottom: 20px;
-    background-color: whitesmoke;
-    color: #079f2a;
+    background-color: #07bc0c;
+    color: white;
     border-width: 1px; /* Set the border width */
     border-style: solid; /* Ensure the border is solid */
     border-color: #079f2a; /* Set the border color */
@@ -39,9 +39,9 @@
     cursor: pointer;
 }
 
-.add-product-button:hover {
-    background-color: #079f2a;
-    color: whitesmoke;
+.sales-button:hover {
+    background-color: white;
+    color: #07bc0c;
     border-color: #079f2a;
 }
 

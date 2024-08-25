@@ -23,6 +23,7 @@
     max-width: 300px;
     padding-right: 40px;
     margin-left: 60px;
+    padding-top: 40px;
 }
 
 .product-image img {
@@ -71,7 +72,7 @@
     padding: 10px 20px;
     background-color: #079f2a;
     color: white;
-    border: none;
+    border-color: #07bc0c;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -79,6 +80,7 @@
 .submit-bid-button:hover {
     background-color: white;
     color: #057a22;
+    border-color: #07bc0c;
 }
 
 .footer-logo {

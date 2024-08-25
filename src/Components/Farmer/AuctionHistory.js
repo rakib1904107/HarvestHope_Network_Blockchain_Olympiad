@@ -8,10 +8,10 @@ const AuctionHistory = () => {
             <div className='auction_history_page'>
                 <div className="button-container">
                     <a href="/createauction">
-                        <button className="add-product-button">Create Auction</button>
+                        <button className="aution-button">Create Auction</button>
                     </a>
                     <a href="/ongoingauction">
-                        <button className="add-product-button">Ongoing Auction</button>
+                        <button className="aution-button">Ongoing Auction</button>
                     </a>
                 </div>
                 <div className="auctioned-product">

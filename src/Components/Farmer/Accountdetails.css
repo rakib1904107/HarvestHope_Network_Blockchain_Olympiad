@@ -58,18 +58,20 @@
     /* Slightly change background color on focus */
 }
 
-.btn-primary {
-    background-color: whitesmoke;
-    border: none;
-    color: #07bc0c;
+.button-accountdetails {
+    background-color:#07bc0c;
+    border-color: #07bc0c;
+    color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    border-color: #059c0a;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.btn-primary:hover {
-    background-color: #059c0a;
+.button-accountdetails:hover {
+    background-color: white;
+    border-color: #07bc0c;
+    color: #07bc0c;
+
     /* Slightly darker shade on hover */
 }

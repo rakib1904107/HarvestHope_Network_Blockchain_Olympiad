@@ -1,10 +1,10 @@
 import React from 'react';
-import './AuctionCreation.css';
+import './SaleCreation.css';
 import {Link} from 'react-router-dom';
 const SaleCreation = () => {
     return (
-        <div className="add-inspect">
-            <div className="add-inspect-container"></div>
+        <div className="sales-inspect">
+            <div className="sales-inspect-container"></div>
             <div className="form-page">
                 <form>
                     <div className="form-group">

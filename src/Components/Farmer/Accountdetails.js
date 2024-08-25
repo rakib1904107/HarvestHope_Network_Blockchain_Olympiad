@@ -43,7 +43,7 @@ const AccountDetails = () => {
                         <input type="password" id="confirmPassword" className="form-control" />
                     </div>
                     <Link to="/farmer">
-                        <button type="submit" className="btn btn-primary">Save changes</button>
+                        <button type="submit" className="button-accountdetails">Save changes</button>
                     </Link>
                 </form>
             </div>
