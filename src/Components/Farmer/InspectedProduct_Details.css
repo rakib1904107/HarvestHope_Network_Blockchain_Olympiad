@@ -2,7 +2,7 @@
 
 /* Apply the background image to a specific container */
 .inspection-page {
-    background-image: url('D:\Blockchain\Blockchain_Olympiad\src\Components\Farmer\images/bp.jpeg');
+    background-image: url('D:\Blockchain\Blockchain_Olympiad\src\Components\Farmer\images\anaros_back1.jpg') !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

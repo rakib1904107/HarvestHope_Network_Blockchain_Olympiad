@@ -1,6 +1,6 @@
 
-.inspection-page {
-    background-image: url('D:\Blockchain\Blockchain_Olympiad\src\Components\Farmer\images\tomato_back.jpg');
+.auction-page {
+    background-image: url('D:\Blockchain\Blockchain_Olympiad\src\Components\Farmer\images\tomato_back.jpg') !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
