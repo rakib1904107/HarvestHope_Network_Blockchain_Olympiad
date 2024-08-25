@@ -1,11 +1,13 @@
 
 .inspection-page {
-    background-image: url('D:/Blockchain/Blockchain_Olympiad/src/Components/Farmer/images/bp.jpeg');
+    background-image: url('D:\Blockchain\Blockchain_Olympiad\src\Components\Farmer\images\tomato_back.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
     display: flex;
+    
+    z-index: 1; 
 }
 
 .product-details {
@@ -13,6 +15,7 @@
     display: flex;
     flex-direction: row;
     margin: 20px 40px;
+    z-index: 2;
 }
 
 .product-image {

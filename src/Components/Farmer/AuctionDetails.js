@@ -2,6 +2,7 @@ import React from 'react';
 import './AuctionDetails.css';
 import inspection from '../Farmer/images/inspection.png';
 import tomato from '../Farmer/images/tomato.jpg';
+import { Link } from 'react-router-dom';
 
 const AuctionDetails = () => {
     return (
@@ -15,20 +16,24 @@ const AuctionDetails = () => {
                     <div className="product-meta">
                         <p><strong>Categories:</strong> Vegetable</p>
                         <p><strong>Quantity:</strong> 1000 pc</p>
-                        <p><strong>Current Price:</strong> 400tk</p> {/* Current Price section */}
+                        <p><strong>Current Price:</strong> 400tk</p>
+                        <p><strong>Remaining Time:</strong> 02:15:30</p> {/* Added Remaining Time section */}
 
-                        {/* Place Your Bid section */}
-                        <div className="place-bid">
-                            <label htmlFor="bid-amount" className="bid-label">Place Your Bid:</label>
-                            <input 
-                                type="number" 
-                                id="bid-amount" 
-                                name="bid-amount" 
-                                className="bid-input" 
-                                placeholder="Enter your bid amount" 
-                            />
-                            <button type="submit" className="submit-bid-button">Submit Bid</button>
-                        </div>
+                        <form>
+                            <div className="place-bid">
+                                <label htmlFor="bid-amount" className="bid-label">Place Your Bid:</label>
+                                <input 
+                                    type="number" 
+                                    id="bid-amount" 
+                                    name="bid-amount" 
+                                    className="bid-input" 
+                                    placeholder="Enter your bid amount" 
+                                />
+                            <Link to = "/ongoingauction">
+                                <button type="submit" className="submit-bid-button">Submit Bid</button>
+                            </Link>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
