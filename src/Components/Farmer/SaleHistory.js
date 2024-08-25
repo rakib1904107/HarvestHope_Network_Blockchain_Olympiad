@@ -21,6 +21,7 @@ const SaleHistory = () => {
                         <span>Rating: 4.5</span>
                         <span>Price: $200</span>
                         <span>Date: 2023-08-23</span>
+                        <span>Buyer: John Doe</span> {/* New field for buyer */}
                         <span>
                             <button className="delete-button">
                                 <FaTrash />
@@ -36,6 +37,7 @@ const SaleHistory = () => {
                         <span>Rating: 4.5</span>
                         <span>Price: $200</span>
                         <span>Date: 2023-08-23</span>
+                        <span>Buyer: John Doe</span> {/* New field for buyer */}
                         <span>
                             <button className="delete-button">
                                 <FaTrash />
@@ -50,6 +52,7 @@ const SaleHistory = () => {
                         <span>Rating: 4.5</span>
                         <span>Price: $200</span>
                         <span>Date: 2023-08-23</span>
+                        <span>Buyer: John Doe</span> {/* New field for buyer */}
                         <span>
                             <button className="delete-button">
                                 <FaTrash />
@@ -64,6 +67,7 @@ const SaleHistory = () => {
                         <span>Rating: 4.5</span>
                         <span>Price: $200</span>
                         <span>Date: 2023-08-23</span>
+                        <span>Buyer: John Doe</span> {/* New field for buyer */}
                         <span>
                             <button className="delete-button">
                                 <FaTrash />
@@ -78,6 +82,7 @@ const SaleHistory = () => {
                         <span>Rating: 4.5</span>
                         <span>Price: $200</span>
                         <span>Date: 2023-08-23</span>
+                        <span>Buyer: John Doe</span> {/* New field for buyer */}
                         <span>
                             <button className="delete-button">
                                 <FaTrash />
@@ -92,6 +97,7 @@ const SaleHistory = () => {
                         <span>Rating: 4.5</span>
                         <span>Price: $200</span>
                         <span>Date: 2023-08-23</span>
+                        <span>Buyer: John Doe</span> {/* New field for buyer */}
                         <span>
                             <button className="delete-button">
                                 <FaTrash />
@@ -106,6 +112,7 @@ const SaleHistory = () => {
                         <span>Rating: 4.5</span>
                         <span>Price: $200</span>
                         <span>Date: 2023-08-23</span>
+                        <span>Buyer: John Doe</span> {/* New field for buyer */}
                         <span>
                             <button className="delete-button">
                                 <FaTrash />
@@ -120,6 +127,7 @@ const SaleHistory = () => {
                         <span>Rating: 4.5</span>
                         <span>Price: $200</span>
                         <span>Date: 2023-08-23</span>
+                        <span>Buyer: John Doe</span> {/* New field for buyer */}
                         <span>
                             <button className="delete-button">
                                 <FaTrash />
