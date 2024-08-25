@@ -16,11 +16,10 @@ const LogoSearchBar = () => {
                 </button>
                 <ul className="dropdown-menu">
                     <li><Link className="dropdown-item" to="/farmer">Dashboard</Link></li>
-                    <li><Link className="dropdown-item" to="/add-product-auction">Add Product For Auction</Link></li>
-                    <li><Link className="dropdown-item" to="/add-product-sale">Add Product For Sale</Link></li>
-                    <li><Link className="dropdown-item" to="/add-product-inspect">Add Product For Inspection</Link></li>
+                    <li><Link className="dropdown-item" to="/auctionhistorypage">Add Product For Auction</Link></li>
+                    <li><Link className="dropdown-item" to="/salehistorypage">Add Product For Sale</Link></li>
+                    <li><Link className="dropdown-item" to="/addproductforinspection">Add Product For Inspection</Link></li>
                     <li><Link className="dropdown-item" to="/accountdetails">Account Details</Link></li>
-                    <li><Link className="dropdown-item" to="/history">History</Link></li>
                 </ul>
             </div>
         </div>

@@ -1,22 +1,29 @@
 /* Background styling for the entire section */
 .bg-brand {
+    background-image: none !important;
     background-color: whitesmoke; /* Light gray background */
+    padding: 10px 0; /* Reduce padding around the section */
 }
 
 /* Container styling */
 .flashsale-container {
-    justify-content: space-between;
+    justify-content: center; /* Center items */
 }
 
 /* Card styling */
 .card-body {
     text-align: center;
+    padding: 8px; /* Reduced padding */
+    max-width: 150px; /* Reduce the width of the cards */
+    margin: 10px; /* Reduce margins */
 }
 
 /* Image styling */
 .card-body img {
-    max-width: 80px; /* Adjust width as needed */
+    max-width: 60px; /* Reduce width of images */
     height: auto; /* Maintain aspect ratio */
+    max-height: 60px; /* Reduce height of images */
+    object-fit: cover; /* Ensure image covers the space without distortion */
 }
 
 /* Button styling */
@@ -24,7 +31,8 @@
     background-color: whitesmoke; /* Default Bootstrap primary color */
     border-color: #07bc0c; /* Green border color */
     color: #07bc0c; /* Green text color */
-    font-size: 0.9rem; /* Slightly larger font size */
+    font-size: 0.8rem; /* Smaller font size */
+    padding: 6px; /* Reduce padding */
 }
 
 .btn-primary:hover {

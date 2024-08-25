@@ -1,12 +1,17 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';  // Add this import
 import Home from './Pages/Home';
-import SAVE_MORE_ON_APP from './Pages/SAVE_MORE_ON_APP';
 import Farmers from './Pages/Farmer/Farmers';
 import AccountDetails from './Pages/Farmer/AccountDetails';
 import AddProductForInspection from './Pages/Farmer/AddProductForInspection';
 import InspectedProductDetails from './Pages/Farmer/InspectedProductDetails';
 import AddProductToInspection from './Pages/Farmer/AddProductToInspection';
+
+import AuctionHistoryPage from './Pages/Farmer/AuctionHistoryPage';
+import CreateAuction from './Pages/Farmer/CreateAuction';
+import OngoingAuction from './Pages/Farmer/OngoingAuction';
+import AuctionItemDetails from './Pages/Farmer/AuctionItemDetails';
+import SaleHistorypage from './Pages/Farmer/SaleHistoryPage';
 
 function App() {
   return (
@@ -18,6 +23,11 @@ function App() {
             <Route path="/addproductforinspection" element={<AddProductForInspection/>}/>
             <Route path="/inspectedproductdetails" element={<InspectedProductDetails />} />
             <Route path="/addproducttoinspection" element={<AddProductToInspection/>} />
+            <Route path = "/auctionhistorypage" element={<AuctionHistoryPage />} />
+            <Route path = "/createauction" element={<CreateAuction />} />
+            <Route path = "/ongoingauction" element={<OngoingAuction />} />
+            <Route path = "/auctiondetails" element= {<AuctionItemDetails />} />
+            <Route path = "/salehistorypage" element={<SaleHistorypage />} />
         </Routes>
     </BrowserRouter>
   );

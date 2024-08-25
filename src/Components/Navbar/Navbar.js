@@ -27,7 +27,6 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            
           </ul>
         </div>
       </div>

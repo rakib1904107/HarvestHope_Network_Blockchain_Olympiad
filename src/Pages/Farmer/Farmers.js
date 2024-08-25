@@ -8,6 +8,7 @@ const Farmers = () => {
             <Navbar />
             <LogoSearchBar />
             <FarmerOption />
+            
         </div>
     );
 };
