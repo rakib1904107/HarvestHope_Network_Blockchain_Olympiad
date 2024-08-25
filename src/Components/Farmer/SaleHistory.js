@@ -7,7 +7,7 @@ const SaleHistory = () => {
         <div className="auctionhistorypage">
             <div className='auction_history_page'>
                 <div className="button-container">
-                    <a href="/createauction">
+                    <a href="/createsale">
                         <button className="add-product-button">Add Product</button>
                     </a>
                     

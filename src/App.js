@@ -12,6 +12,7 @@ import CreateAuction from './Pages/Farmer/CreateAuction';
 import OngoingAuction from './Pages/Farmer/OngoingAuction';
 import AuctionItemDetails from './Pages/Farmer/AuctionItemDetails';
 import SaleHistorypage from './Pages/Farmer/SaleHistoryPage';
+import CreateSale from './Pages/Farmer/CreateSale';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path = "/ongoingauction" element={<OngoingAuction />} />
             <Route path = "/auctiondetails" element= {<AuctionItemDetails />} />
             <Route path = "/salehistorypage" element={<SaleHistorypage />} />
+            <Route path = "/createsale" element={<CreateSale />} />
         </Routes>
     </BrowserRouter>
   );
