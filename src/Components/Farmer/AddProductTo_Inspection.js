@@ -1,5 +1,6 @@
 import React from 'react';
 import './AddProductTo_Inspection.css';
+import { Link } from 'react-router-dom';
 
 const AddProductTo_Inspection = () => {
     return (
@@ -46,7 +47,10 @@ const AddProductTo_Inspection = () => {
                                 required
                             />
                         </div>
-                        <button type="submit" className="submit-button">Submit</button>
+                        <Link to = "/addproductforinspection">
+                            <button type="submit" className="submit-button">Submit</button>
+                        </Link>
+                        
                     </form>
                 </div>
             </div>
