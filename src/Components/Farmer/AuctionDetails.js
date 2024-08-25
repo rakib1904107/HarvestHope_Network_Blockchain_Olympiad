@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const AuctionDetails = () => {
     return (
-        <div className='inspection-page'>
+        <div className='auction-page'>
             <div className="product-details">
                 <div className="product-image">
                     <img src={tomato} alt="Tomato" />
