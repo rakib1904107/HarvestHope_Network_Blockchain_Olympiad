@@ -29,7 +29,7 @@ const AuctionList = () => {
     return (
         <div className='bg-brand'>
             <div className='container py-5'>
-                <h2 className='fs-5'>Ongoing Auction</h2>
+                <h2 className='fs-5' style={{ color: '#ccc' }}>Ongoing Auction</h2> {/* Inline CSS for color */}
                 <div className='auction-cards'>
                     {items.map((item) => (
                         <div key={item.id} className='auction-card'>
