@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Accountdetails.css';
 
 const AccountDetails = () => {
@@ -41,7 +42,9 @@ const AccountDetails = () => {
                         <label htmlFor="confirmPassword">Confirm new password</label>
                         <input type="password" id="confirmPassword" className="form-control" />
                     </div>
-                    <button type="submit" className="btn btn-primary">Save changes</button>
+                    <Link to="/farmer">
+                        <button type="submit" className="btn btn-primary">Save changes</button>
+                    </Link>
                 </form>
             </div>
         </div>
