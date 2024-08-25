@@ -16,15 +16,19 @@ const AddProduct_Inspection = () => {
                     <li>
                         <span>Pineapple</span>
                         <Link to="/inspectedproductdetails">
-                            <button>Show Certificate</button>
+                            <button>Show certificate</button>
                         </Link>
                     </li>
                     <li>
                         <span>Capsicum</span>
-                        <button>Show Certificate</button>
+                        <button>Pending</button>
                     </li>
                     <li>
                         <span>Tomato</span>
+                        <button>Pending</button>
+                    </li>
+                    <li>
+                        <span>Carrot</span>
                         <button>Show Certificate</button>
                     </li>
                 </ul>
