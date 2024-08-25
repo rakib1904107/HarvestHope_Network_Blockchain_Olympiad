@@ -1,50 +1,54 @@
 import React from 'react';
-import './AuctionDetails.css';
-import inspection from '../Farmer/images/inspection.png';
-import tomato from '../Farmer/images/tomato.jpg';
 import { Link } from 'react-router-dom';
+import './Accountdetails.css';
 
-const AuctionDetails = () => {
+const AccountDetails = () => {
     return (
-        <div className='auction-page'>
-            <div className="product-details">
-                <div className="product-image">
-                    <img src={tomato} alt="Tomato" />
-                </div>
-                <div className="product-info">
-                    <h1>Tomato (টমেটো)</h1>
-                    <div className="product-meta">
-                        <p><strong>Categories:</strong> Vegetable</p>
-                        <p><strong>Quantity:</strong> 1000 pc</p>
-                        <p><strong>Current Price:</strong> 400tk</p>
-                        <p><strong>Remaining Time:</strong> 02:15:30</p> {/* Added Remaining Time section */}
-
-                        <form>
-                            <div className="place-bid">
-                                <label htmlFor="bid-amount" className="bid-label">Place Your Bid:</label>
-                                <input 
-                                    type="number" 
-                                    id="bid-amount" 
-                                    name="bid-amount" 
-                                    className="bid-input" 
-                                    placeholder="Enter your bid amount" 
-                                />
-                            <Link to = "/ongoingauction">
-                                <button type="submit" className="submit-bid-button">Submit Bid</button>
-                            </Link>
-                            </div>
-                        </form>
+        <div className="account-page">
+            <div className="account-details-container">
+                <form className="account-form">
+                    <div className="form-group">
+                        <label htmlFor="mobileNumber">Mobile Number</label>
+                        <input type="text" id="mobileNumber" className="form-control" placeholder="1537703400" />
                     </div>
-                </div>
-            </div>
-            <div className="footer-logo">
-                <img src={inspection} alt="Inspection Team Logo" className="inspection-logo" />
-                <p>Certified by Inspection Team</p>
-                <p>Expiry Date: Nov 24</p>
-                <p>Rating: 4.5/5</p>
+                    <div className="form-group">
+                        <label htmlFor="firstName">First name *</label>
+                        <input type="text" id="firstName" className="form-control" placeholder="Urmi" />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="lastName">Last name *</label>
+                        <input type="text" id="lastName" className="form-control" placeholder="Biswas" />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="displayName">Display name *</label>
+                        <input type="text" id="displayName" className="form-control" placeholder="854245583157" />
+                        <small className="form-text text-muted">
+                            This will be how your name will be displayed in the account section and in reviews
+                        </small>
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="email">Email address *</label>
+                        <input type="email" id="email" className="form-control" placeholder="Enter your email" />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="currentPassword">Current password (leave blank to leave unchanged)</label>
+                        <input type="password" id="currentPassword" className="form-control" />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="newPassword">New password (leave blank to leave unchanged)</label>
+                        <input type="password" id="newPassword" className="form-control" />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="confirmPassword">Confirm new password</label>
+                        <input type="password" id="confirmPassword" className="form-control" />
+                    </div>
+                    <Link to="/farmer">
+                        <button type="submit" className="btn btn-primary">Save changes</button>
+                    </Link>
+                </form>
             </div>
         </div>
     );
 };
 
-export default AuctionDetails;
+export default AccountDetails;
