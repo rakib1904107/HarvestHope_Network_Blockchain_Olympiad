@@ -51,7 +51,8 @@
     color: white ; /* White text */
     font-size: 0.9rem; /* Slightly larger font size */
     padding: 10px; /* Increased padding */
-    border-radius: 4px; /* Rounded corners for buttons */
+    border-radius: 4px;
+    font-weight:600; /* Rounded corners for buttons */
 }
 .btn-primary:hover {
     background-color: white ;

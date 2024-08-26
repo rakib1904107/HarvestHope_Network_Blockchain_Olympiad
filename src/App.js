@@ -13,6 +13,7 @@ import OngoingAuction from './Pages/Farmer/OngoingAuction';
 import AuctionItemDetails from './Pages/Farmer/AuctionItemDetails';
 import SaleHistorypage from './Pages/Farmer/SaleHistoryPage';
 import CreateSale from './Pages/Farmer/CreateSale';
+import ConnectWallet from './Components/ConnectWallet/ConnectWallet';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path = "/auctiondetails" element= {<AuctionItemDetails />} />
             <Route path = "/salehistorypage" element={<SaleHistorypage />} />
             <Route path = "/createsale" element={<CreateSale />} />
+            <Route path="/connectwallet" element={<ConnectWallet />} />
         </Routes>
     </BrowserRouter>
   );

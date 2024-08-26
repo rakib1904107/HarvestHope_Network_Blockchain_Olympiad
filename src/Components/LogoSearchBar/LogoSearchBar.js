@@ -7,7 +7,7 @@ import './LogoSearchBar.css';
 const LogoSearchBar = () => {
     return (
         <div className='container-fluid search-container pt-2 d-flex justify-content-center align-items-center'>
-            <a href="/"><img className='img-fluid' width='150' src={logo1} alt="logo of BARAJ" /></a>
+            <a href="/"><img className='img-fluid' width='150' src={logo1} alt="search" /></a>
             <input type="text" className='form-control search-bar' placeholder='Search ' />
             <button className='btn btn-success search-button'><FaSearch /></button>
             <div className="dropdown">

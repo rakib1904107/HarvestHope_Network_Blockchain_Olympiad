@@ -27,6 +27,11 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="connectwallet">
+                Connect Wallet
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
