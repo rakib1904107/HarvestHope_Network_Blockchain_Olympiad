@@ -10,7 +10,7 @@ import d6 from '../Farmer/images/pepper.jpg';
 import d7 from '../Farmer/images/apple.jpg';
 import d8 from '../Farmer/images/potato.jpg';
 import d9 from '../Farmer/images/orange.jpg';
-import d10 from '../Farmer/images/broccoli.jpg';
+import d10 from '../Farmer/images/broccoli.jpeg';
 
 const AuctionList = () => {
     const items = [
